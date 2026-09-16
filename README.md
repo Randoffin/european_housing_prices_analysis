@@ -307,7 +307,7 @@ Finland warrants further investigation to determine whether the decline reflects
 
 The dataset itself cannot establish which factor caused the decline.
 
-![Finland negative yoy](visualizations/viz_9.png)
+![Finland negative yoy](visualizations/viz_10.png)
 ________________________________________
 Finding 4 — Long-term housing-price growth varies dramatically across countries
 
@@ -373,8 +373,6 @@ The comparison does not control for:
 •	Construction activity
 
 Therefore, no causal conclusion should be drawn from this comparison alone.
-
-![Eurozone vs Non-Eurozone](visualizations/viz_5.png) 
 ________________________________________
 Finding 6 — Eurozone membership does not show the same simple pattern
 
@@ -470,7 +468,7 @@ Switzerland's missing price-index data and Türkiye's shorter time coverage demo
 ________________________________________
 # v. Act
 
-10. Recommendations
+## Recommendations
     
 Based on the findings, the following recommendations are appropriate.
 
@@ -551,7 +549,7 @@ The dashboard should track:
 
 This would turn the analysis from a one-time report into an ongoing decision-support system.
 ________________________________________
-11. Limitations of the Analysis
+## Limitations of the Analysis
 
 The following limitations should be explicitly communicated to stakeholders.
 
@@ -583,7 +581,7 @@ Historical data is not a forecast
 
 Past price growth does not guarantee future price growth.
 ________________________________________
-12. Conclusion
+## Conclusion
 
 The analysis indicates that European housing prices were generally increasing in the latest period, but the scale of growth differed considerably between countries.
 
