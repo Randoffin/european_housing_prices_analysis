@@ -276,13 +276,16 @@ Rank	Country	Year-on-year growth
 The results demonstrate considerable variation in current housing-market performance.
 
 Stakeholder implication
+
 Markets with exceptionally high growth deserve closer investigation.
 High growth can indicate strong demand and potential investment opportunities, but it can also indicate affordability pressure and the possibility that prices are increasing faster than underlying economic fundamentals.
 The growth figure alone should therefore not be interpreted as a recommendation to invest.
 
 ![Top 10 Latest YoY Growth](visualizations/viz_2.png) 
 ________________________________________
-Finding 3 — Finland was the only country with negative latest annual growth
+Finding 3 — Which countries have experienced the largest increase in housing prices relative to the 2015 baseline?
+
+![Top 10 Long Term 2025-Q3](visualizations/viz_3.png)
 
 In 2025 Q3:
 
@@ -301,7 +304,7 @@ Finland warrants further investigation to determine whether the decline reflects
 •	Regional differences.
 •	Temporary market weakness.
 The dataset itself cannot establish which factor caused the decline.
-![Top 10 Long Term 2025-Q3](visualizations/viz_3.png) 
+![Finland negative y-o-y](visualizations/viz_11.png) 
 ________________________________________
 Finding 4 — Long-term housing-price growth varies dramatically across countries
 
