@@ -2,10 +2,13 @@
 ## Stakeholder Decision-Support Report
 # Introduction/Overview
 1. Executive Summary
+
 This analysis examines housing-price movements across European countries using quarterly housing-price data covering the period from 2022 Q4 to 2025 Q3, with some countries having shorter periods of coverage.
 The primary purpose of the analysis is to identify countries experiencing the strongest and weakest housing-price growth, understand the broader European housing-price trend, compare housing-market performance between EU and non-EU countries and between Eurozone and non-Eurozone countries, and identify areas that may require further investigation by decision-makers.
 The dataset, sourced from Kaggle [https://www.kaggle.com/datasets/ibrahimshahrukh/european-housing-price-index-dataset] and licensed under creative commons licenses by nc sa 4.0 [https://creativecommons.org/licenses/by-nc-sa/4.0/], includes records of country, country type, eu member, eurozone member, year, quarter number, quarter, price index, quarterly change percentage, yearly change percentage, price change since 2015 percentage, data quality. The dataset has 417 records spanning 12 quarters of housing market data • 35 European countries including all EU members, EEA nations, and key markets • Housing Price Index (baseline 2015=100) tracking property value changes • Quarterly and year-over-year percentage changes for trend analysis • Country classifications: EU membership and Eurozone participation status • Pre-calculated metrics including total price change since 2015.
+
 In order to answer the analytical questions and provide insights, I followed the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
+
 The analysis shows that housing-price growth remained broadly positive across Europe in 2025 Q3. Hungary recorded the strongest year-on-year growth at 21.1%, followed by Portugal at 17.7% and Bulgaria at 15.4%. Finland was the only country with negative year-on-year growth, at -3.1%.
 Looking at the longer-term change from the 2015 baseline, Hungary also recorded the strongest increase among countries with comparable 2025 Q3 data, at approximately 275.2%, followed by Portugal (169.4%), Iceland (165.1%), Lithuania (162.0%) and Bulgaria (156.0%).
 The median housing-price index across individual countries increased from approximately 169.6 in 2022 Q4 to 191.8 in 2025 Q3, representing an increase of about 13% over the period.
@@ -28,19 +31,33 @@ ________________________________________
 
 # i. Ask
 # 3. Analytical Questions
+
 Six key questions were established before conducting the analysis.
+
 Question 1
+
 What is the overall trend in housing prices across the individual European countries in the dataset?
+
 Question 2
+
 Which countries have the highest year-on-year housing-price growth in the latest available quarter?
+
 Question 3
+
 Which countries have experienced the largest increase in housing prices relative to the 2015 baseline?
+
 Question 4
+
 How does housing-price growth compare between EU and non-EU countries?
+
 Question 5
+
 How does housing-price growth compare between Eurozone and non-Eurozone countries?
+
 Question 6
+
 Which countries currently show strong growth, moderate growth, or decline?
+
 These questions were selected because they combine trend analysis, ranking, segmentation and decision-oriented comparison.
 ________________________________________
 # ii. Prepare
@@ -49,21 +66,38 @@ One csv dataset was used:
 European_housng_prices_clean.csv [https://www.kaggle.com/datasets/ibrahimshahrukh/european-housing-price-index-dataset]. This dataset has been made available by Ibrahim Shahruk under Creative Common Licenses.
 # 4. Dataset Overview
 The dataset contains 417 observations across 12 variables.
+
 The principal variables include:
+
 country - (Country or European aggregate series)
+
 country_type - (Identifies individual countries versus aggregate series)
+
 eu_member - (EU membership indicator)
+
 eurozone_member - (Eurozone membership indicator)
+
 year - (Observation year)
+
 quarter_num - (Numeric quarter)
+
 quarter - (Quarter label)
+
 price_index - (Housing-price index)
+
 quarterly_change_pct - (Quarterly percentage change)
+
 yearly_change_pct - (Year-on-year percentage change)
+
 price_change_since_2015_pct - (Change relative to the 2015 baseline)
+
 data_quality - (Data-quality/coverage information)
+
 The dataset contains 30 individual countries and 5 European aggregate series.
-For country-level analysis, the aggregate series were excluded because an aggregate such as "European Union" or "Euro area" should not be treated as an individual country.
+
+For country-level analysis, the aggregate series were excluded because an aggregate such as "European Union" or "Euro area"
+
+should not be treated as an individual country.
 ________________________________________
 # iii. Process
 Tools Used:
@@ -181,6 +215,7 @@ Stakeholder implication
 Markets with exceptionally high growth deserve closer investigation.
 High growth can indicate strong demand and potential investment opportunities, but it can also indicate affordability pressure and the possibility that prices are increasing faster than underlying economic fundamentals.
 The growth figure alone should therefore not be interpreted as a recommendation to invest.
+
 ![Top 10 Latest YoY Growth](visualizations/viz_2.png) 
 ________________________________________
 Finding 3 — Finland was the only country with negative latest annual growth
@@ -247,6 +282,7 @@ The comparison does not control for:
 •	Urbanization
 •	Construction activity
 Therefore, no causal conclusion should be drawn from this comparison alone.
+
 ![Eurozone vs Non-Eurozone](visualizations/viz_5.png) 
 ________________________________________
 Finding 6 — Eurozone membership does not show the same simple pattern
