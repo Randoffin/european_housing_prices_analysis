@@ -158,8 +158,8 @@ The overall direction therefore suggests that housing prices generally increased
 Stakeholder implication
 The European housing market should not be treated as a single uniform market. The overall upward trend hides substantial differences between individual countries.
 Decision-makers should therefore combine the European-level trend with country-level analysis before making investment, policy or market-entry decisions.
-![Median Price Index Trend](visualizations/viz_1.png) or use
-![Median Price Index Trend](https://github.com/Randoffin/european_housing_prices_analysis/viz_1.png?raw=true)
+![Median Price Index Trend](visualizations/viz_1.png) 
+
 ________________________________________
 Finding 2 — Hungary had the strongest latest annual growth
 In 2025 Q3, Hungary recorded the highest year-on-year housing-price growth at:
@@ -181,6 +181,7 @@ Stakeholder implication
 Markets with exceptionally high growth deserve closer investigation.
 High growth can indicate strong demand and potential investment opportunities, but it can also indicate affordability pressure and the possibility that prices are increasing faster than underlying economic fundamentals.
 The growth figure alone should therefore not be interpreted as a recommendation to invest.
+![Top 10 Latest YoY Growth](visualizations/viz_2.png) 
 ________________________________________
 Finding 3 — Finland was the only country with negative latest annual growth
 In 2025 Q3:
@@ -197,6 +198,7 @@ Finland warrants further investigation to determine whether the decline reflects
 •	Regional differences.
 •	Temporary market weakness.
 The dataset itself cannot establish which factor caused the decline.
+![Top 10 Long Term 2025-Q3](visualizations/viz_3.png) 
 ________________________________________
 Finding 4 — Long-term housing-price growth varies dramatically across countries
 Using the change relative to the 2015 baseline, Hungary recorded the largest increase among countries with comparable 2025 Q3 data:
@@ -215,7 +217,7 @@ Rank	Country	Change since 2015
 9	Latvia	120.7%
 10	Netherlands	117.6%
 		
-		
+![EU vs Non-EU](visualizations/viz_4.png) 		
 Türkiye shows an extremely large reported increase of approximately 1,784.9%, but its latest observation is 2024 Q4 rather than 2025 Q3. It should therefore not be directly ranked alongside the countries with 2025 Q3 observations when making a current-market comparison.
 Switzerland cannot be ranked on this measure because its relevant price-index values are missing.
 Stakeholder implication
@@ -244,6 +246,7 @@ The comparison does not control for:
 •	Urbanization
 •	Construction activity
 Therefore, no causal conclusion should be drawn from this comparison alone.
+![Eurozone vs Non-Eurozone](visualizations/viz_5.png) 
 ________________________________________
 Finding 6 — Eurozone membership does not show the same simple pattern
 At 2025 Q3:
@@ -256,6 +259,7 @@ Therefore, in this dataset, non-Eurozone countries actually recorded higher aver
 Stakeholder implication
 This demonstrates why analysts should avoid assuming that a broad regional or institutional classification automatically determines market performance.
 Country-specific conditions appear to be highly important.
+![All Latest YoY Growth](visualizations/viz_6.png) 
 ________________________________________
 8. Growth Classification
 Using the analytical thresholds established for this project:
@@ -271,6 +275,7 @@ Therefore, the majority of countries were classified as experiencing strong annu
 This reinforces the finding that the latest period was characterized by broadly positive housing-price movement.
 ________________________________________
 # iv. Share
+![Dashboard](visualizations/viz_7.png) 
 9. What the Findings Mean for Stakeholders
 The analysis produces several decision-relevant messages.
 9.1 The European housing market is heterogeneous
@@ -379,8 +384,8 @@ The analysis provides a useful first layer of evidence for identifying markets t
 ________________________________________
 ## Documents Delivered:
 european_housing_prices_clean.csv
-European_Hosuing_Cleaned_for_Analysis_x.xslx
-Chart_Data_and_Calculations.xslx
+European_Hosuing_Cleaned_for_Analysis_x.csv
+Chart_Data_and_Calculations.xlsx
 Visualization folder
 
 
