@@ -304,7 +304,7 @@ Finland warrants further investigation to determine whether the decline reflects
 •	Regional differences.
 •	Temporary market weakness.
 The dataset itself cannot establish which factor caused the decline.
-![Finland negative y-o-y](visualizations/viz_11.png) 
+![Finland negative y-o-y](visualizations/viz_10.png) 
 ________________________________________
 Finding 4 — Long-term housing-price growth varies dramatically across countries
 
