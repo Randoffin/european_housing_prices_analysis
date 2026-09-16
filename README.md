@@ -237,7 +237,7 @@ ________________________________________
 Finding 1 — European housing prices show an overall upward trend
 
 The median price index across individual countries increased from approximately:
-![Median Price Index Trend](visualizations/viz_9.png) 
+![Median Price Index Trend](visualizations/viz_10.png) 
 
 169.64 in 2022 Q4
 to
