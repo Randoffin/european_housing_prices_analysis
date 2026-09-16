@@ -4,7 +4,6 @@
 
 This analysis examines housing-price movements across European countries using quarterly housing-price data covering the period from 2022 Q4 to 2025 Q3, with some countries having shorter periods of coverage.
 The primary purpose of the analysis is to identify countries experiencing the strongest and weakest housing-price growth, understand the broader European housing-price trend, compare housing-market performance between EU and non-EU countries and between Eurozone and non-Eurozone countries, and identify areas that may require further investigation by decision-makers.
-The dataset, sourced from Kaggle [https://www.kaggle.com/datasets/ibrahimshahrukh/european-housing-price-index-dataset] and licensed under creative commons licenses by nc sa 4.0 [https://creativecommons.org/licenses/by-nc-sa/4.0/], includes records of country, country type, eu member, eurozone member, year, quarter number, quarter, price index, quarterly change percentage, yearly change percentage, price change since 2015 percentage, data quality. The dataset has 417 records spanning 12 quarters of housing market data • 35 European countries including all EU members, EEA nations, and key markets • Housing Price Index (baseline 2015=100) tracking property value changes • Quarterly and year-over-year percentage changes for trend analysis • Country classifications: EU membership and Eurozone participation status • Pre-calculated metrics including total price change since 2015.
 
 The analysis shows that housing-price growth remained broadly positive across Europe in 2025 Q3. Hungary recorded the strongest year-on-year growth at 21.1%, followed by Portugal at 17.7% and Bulgaria at 15.4%. Finland was the only country with negative year-on-year growth, at -3.1%.
 Looking at the longer-term change from the 2015 baseline, Hungary also recorded the strongest increase among countries with comparable 2025 Q3 data, at approximately 275.2%, followed by Portugal (169.4%), Iceland (165.1%), Lithuania (162.0%) and Bulgaria (156.0%).
@@ -62,7 +61,7 @@ ________________________________________
 # ii. Prepare
 Data Source: 
 One csv dataset was used: 
-European_housng_prices_clean.csv [https://www.kaggle.com/datasets/ibrahimshahrukh/european-housing-price-index-dataset]. This dataset has been made available by Ibrahim Shahruk under Creative Common Licenses.
+European_housng_prices_clean.csv [https://www.kaggle.com/datasets/ibrahimshahrukh/european-housing-price-index-dataset]. This dataset has been made available by Ibrahim Shahruk under Creative Common Licenses [https://creativecommons.org/licenses/by-nc-sa/4.0/].
 # Dataset Overview
 The dataset contains 417 observations across 12 variables.
 
@@ -237,13 +236,13 @@ ________________________________________
 Finding 1 — European housing prices show an overall upward trend
 
 The median price index across individual countries increased from approximately:
-![Median Price Index Trend](visualizations/viz_10.png) 
+![Median Price Index Trend](visualizations/viz_12.png) 
 
 169.64 in 2022 Q4
 to
 191.76 in 2025 Q3.
 
-This represents an increase of approximately 13% in the median price index over the observed period. That is (Ending – Beginning) / Beginning) x 100) = (191.76 – 169.64) / 169.76 x 100 = 13%.
+This represents an increase of approximately 13% in the median price index over the observed period. That is (Ending – Beginning) / Beginning)) x 100 = ((191.76 – 169.64) / 169.64) x 100 = 13%.
 The overall direction therefore suggests that housing prices generally increased across the countries represented in the dataset, although individual markets behaved differently.
 
 Stakeholder implication
