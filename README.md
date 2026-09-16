@@ -274,7 +274,7 @@ The median price index across individual countries increased from approximately:
 to
 191.76 in 2025 Q3.
 
-This represents an increase of approximately 13% in the median price index over the observed period. That is (Ending – Beginning) / Beginning)) x 100 = ((191.76 – 169.64) / 169.64) x 100 = 13%.
+This represents an increase of approximately 13% in the median price index over the observed period. That is ((Ending – Beginning) / Beginning)) x 100 = ((191.76 – 169.64) / 169.64) x 100 = 13%.
 The overall direction therefore suggests that housing prices generally increased across the countries represented in the dataset, although individual markets behaved differently.
 
 Stakeholder implication
@@ -296,14 +296,23 @@ The next highest were:
 Rank	Country	 Year-on-year growth
 
 1	   Hungary	    21.1%
+
 2	   Portugal	   17.7%
+
 3	   Bulgaria	   15.4%
+
 4	   Croatia	    13.8%
+
 5	   Slovakia	   13.4%
+
 6	   Spain	      12.8%
+
 7	   Lithuania  	10.8%
+
 8	   Czechia	    10.8%
+
 9	   Latvia	     8.4%
+
 10	  Netherlands	7.7%
 
 The results demonstrate considerable variation in current housing-market performance.
@@ -357,14 +366,23 @@ Other leading countries were:
 Rank	Country	   Change since 2015
 
 1	   Hungary	    275.2%
+
 2	   Portugal	   169.4%
+
 3	   Iceland	    165.1%
+
 4	   Lithuania  	162.0%
+
 5	   Bulgaria	   156.0%
+
 6	   Czechia	    149.0%
+
 7	   Croatia	    130.1%
+
 8	   Estonia    	122.0%
+
 9	   Latvia	     120.7%
+
 10	  Netherlands	117.6%
 
 ![Top 10 Long Term 2025-Q3](visualizations/viz_3.png)
