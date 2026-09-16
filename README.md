@@ -261,17 +261,18 @@ In 2025 Q3, Hungary recorded the highest year-on-year housing-price growth at:
 
 The next highest were:
 
-Rank	Country	Year-on-year growth
-1	Hungary	21.1%
-2	Portugal	17.7%
-3	Bulgaria	15.4%
-4	Croatia	13.8%
-5	Slovakia	13.4%
-6	Spain	12.8%
-7	Lithuania	10.8%
-8	Czechia	10.8%
-9	Latvia	8.4%
-10	Netherlands	7.7%
+Rank	Country	 Year-on-year growth
+
+1	   Hungary	    21.1%
+2	   Portugal	   17.7%
+3	   Bulgaria	   15.4%
+4	   Croatia	    13.8%
+5	   Slovakia	   13.4%
+6	   Spain	      12.8%
+7	   Lithuania  	10.8%
+8	   Czechia	    10.8%
+9	   Latvia	     8.4%
+10	  Netherlands	7.7%
 
 The results demonstrate considerable variation in current housing-market performance.
 
@@ -288,6 +289,7 @@ Finding 3 — Finland was the only country with negative latest annual growth
 In 2025 Q3:
 
 •	28 of the 29 countries with available year-on-year observations recorded positive growth.
+
 •	Finland recorded the only negative year-on-year change, at -3.1%.
  
 This makes Finland a notable outlier in the latest-period comparison.
@@ -311,19 +313,21 @@ Finding 4 — Long-term housing-price growth varies dramatically across countrie
 
 Using the change relative to the 2015 baseline, Hungary recorded the largest increase among countries with comparable 2025 Q3 data:
 Hungary: +275.2%
+
 Other leading countries were:
  
-Rank	Country	Change since 2015
-1	Hungary	275.2%
-2	Portugal	169.4%
-3	Iceland	165.1%
-4	Lithuania	162.0%
-5	Bulgaria	156.0%
-6	Czechia	149.0%
-7	Croatia	130.1%
-8	Estonia	122.0%
-9	Latvia	120.7%
-10	Netherlands	117.6%
+Rank	Country	   Change since 2015
+
+1	   Hungary	    275.2%
+2	   Portugal	   169.4%
+3	   Iceland	    165.1%
+4	   Lithuania  	162.0%
+5	   Bulgaria	   156.0%
+6	   Czechia	    149.0%
+7	   Croatia	    130.1%
+8	   Estonia    	122.0%
+9	   Latvia	     120.7%
+10	  Netherlands	117.6%
 
 ![Top 10 Long Term 2025-Q3](visualizations/viz_3.png)
 
@@ -341,11 +345,13 @@ Finding 5 — EU countries showed higher average latest-period growth than non-E
 At 2025 Q3:
 
 •	EU countries: approximately 7.05% average year-on-year growth
+
 •	Non-EU countries: approximately 4.60% average year-on-year growth
 
 The median values were:
 
 •	EU: 6.15%
+
 •	Non-EU: 5.10%
 
 Both measures point in the same general direction: EU countries in this dataset had somewhat stronger average latest-period housing-price growth.
@@ -383,6 +389,7 @@ At 2025 Q3:
 The median values were:
 
 •	Eurozone: 5.2%
+
 •	Non-Eurozone: 5.9%
 
 Therefore, in this dataset, non-Eurozone countries actually recorded higher average and median latest-period growth.
@@ -390,6 +397,7 @@ Therefore, in this dataset, non-Eurozone countries actually recorded higher aver
 Stakeholder implication
 
 This demonstrates why analysts should avoid assuming that a broad regional or institutional classification automatically determines market performance.
+
 Country-specific conditions appear to be highly important.
 ________________________________________
 Growth Classification
@@ -397,15 +405,20 @@ Growth Classification
 Using the analytical thresholds established for this project:
 
 •	Decline: below 0%
+
 •	Moderate Growth: 0% to below 5%
+
 •	Strong Growth: 5% or higher
 
 The 2025 Q3 country observations were classified as follows:
 
-Category	Number of countries
-Decline	1
+Category	       Number of countries
+
+Decline	        1
+
 Moderate Growth	11
-Strong Growth	17
+
+Strong Growth	  17
 
 Therefore, the majority of countries were classified as experiencing strong annual housing-price growth under the project's definition.
 This reinforces the finding that the latest period was characterized by broadly positive housing-price movement.
@@ -448,9 +461,10 @@ Therefore, price growth should be considered alongside other indicators.
 Historical performance should not be treated as a forecast
 
 The large increases recorded by some countries since 2015 demonstrate what has happened historically.
-They do not establish what will happen next.
-Data quality matters for decision-making
 
+They do not establish what will happen next.
+
+Data quality matters for decision-making
 
 Switzerland's missing price-index data and Türkiye's shorter time coverage demonstrate why stakeholders should always understand the limitations behind a dashboard or ranking.
 ________________________________________
