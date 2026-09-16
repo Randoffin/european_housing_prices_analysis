@@ -474,13 +474,13 @@ Using the analytical thresholds established for this project:
 
 The 2025 Q3 country observations were classified as follows:
 
-Category	       Number of countries
+Category	          Number of countries
 
-Decline	        1
+Decline	            1
 
-Moderate Growth	11
+Moderate Growth	    11
 
-Strong Growth	  17
+Strong Growth	      17
 
 Therefore, the majority of countries were classified as experiencing strong annual housing-price growth under the project's definition.
 This reinforces the finding that the latest period was characterized by broadly positive housing-price movement.
@@ -628,12 +628,19 @@ Rather than conducting the analysis only once, stakeholders could establish a qu
 The dashboard should track:
 
 1.	Current annual price growth.
+   
 2.	Quarterly price growth.
+   
 3.	Long-term price appreciation.
+   
 4.	Affordability.
+   
 5.	Rental yields.
+    
 6.	Housing supply.
+    
 7.	Interest rates.
+    
 8.	Country ranking changes.
 
 This would turn the analysis from a one-time report into an ongoing decision-support system.
