@@ -283,9 +283,7 @@ The growth figure alone should therefore not be interpreted as a recommendation 
 
 ![Top 10 Latest YoY Growth](visualizations/viz_2.png) 
 ________________________________________
-Finding 3 — Which countries have experienced the largest increase in housing prices relative to the 2015 baseline?
-
-![Top 10 Long Term 2025-Q3](visualizations/viz_3.png)
+Finding 3 — Finland was the only country with negative latest annual growth
 
 In 2025 Q3:
 
@@ -306,7 +304,8 @@ Finland warrants further investigation to determine whether the decline reflects
 •	Temporary market weakness.
 
 The dataset itself cannot establish which factor caused the decline.
-![Finland negative y-o-y](visualizations/viz_10.png) 
+
+![Finland negative yoy](visualizations/viz_9.png)
 ________________________________________
 Finding 4 — Long-term housing-price growth varies dramatically across countries
 
@@ -325,7 +324,7 @@ Rank	Country	Change since 2015
 8	Estonia	122.0%
 9	Latvia	120.7%
 10	Netherlands	117.6%
-		
+
 ![Top 10 Long Term 2025-Q3](visualizations/viz_3.png)
 
 Türkiye shows an extremely large reported increase of approximately 1,784.9%, but its latest observation is 2024 Q4 rather than 2025 Q3. It should therefore not be directly ranked alongside the countries with 2025 Q3 observations when making a current-market comparison.
@@ -392,8 +391,6 @@ Stakeholder implication
 
 This demonstrates why analysts should avoid assuming that a broad regional or institutional classification automatically determines market performance.
 Country-specific conditions appear to be highly important.
-
-![All Latest YoY Growth](visualizations/viz_6.png) 
 ________________________________________
 Growth Classification
 
