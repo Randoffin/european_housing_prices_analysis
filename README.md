@@ -410,6 +410,7 @@ Strong Growth	17
 Therefore, the majority of countries were classified as experiencing strong annual housing-price growth under the project's definition.
 This reinforces the finding that the latest period was characterized by broadly positive housing-price movement.
 
+![All Latest YoY Growth](visualizations/viz_14.png) 
 ![All Latest YoY Growth](visualizations/viz_6.png) 
 ________________________________________
 # iv. Share
