@@ -16,11 +16,17 @@ ________________________________________
 # The main objective of this analysis is:
 To examine housing-price trends and differences across European countries in order to identify significant patterns, high-growth and low-growth markets, and information that can support evidence-based stakeholder decision-making.
 # The analysis specifically seeks to understand:
+
 •	How housing prices have changed over time.
+
 •	Which countries are currently experiencing the strongest housing-price growth.
+
 •	Which countries have experienced the greatest long-term price increases.
+
 •	Whether housing-price performance differs between EU and non-EU countries.
+
 •	Whether housing-price performance differs between Eurozone and non-Eurozone countries.
+
 •	Which countries may require further investigation because of unusually high or low price growth.
 
 In order to answer the analytical questions and provide insights, I followed the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
@@ -59,10 +65,14 @@ Which countries currently show strong growth, moderate growth, or decline?
 These questions were selected because they combine trend analysis, ranking, segmentation and decision-oriented comparison.
 ________________________________________
 # ii. Prepare
+
 Data Source: 
+
 One csv dataset was used: 
 European_housng_prices_clean.csv [https://www.kaggle.com/datasets/ibrahimshahrukh/european-housing-price-index-dataset]. This dataset has been made available by Ibrahim Shahruk under Creative Common Licenses [https://creativecommons.org/licenses/by-nc-sa/4.0/].
+
 # Dataset Overview
+
 The dataset contains 417 observations across 12 variables.
 
 The principal variables include:
@@ -166,10 +176,15 @@ Step 2 — Data-quality assessment
 The data was checked for:
 
 •	Duplicate records
+
 •	Missing values
+
 •	Inconsistent classifications
+
 •	Country versus aggregate observations
+
 •	Incomplete country coverage
+
 •	Availability of the price index
 
 Step 3 — Data cleaning
@@ -177,9 +192,13 @@ Step 3 — Data cleaning
 The dataset was prepared for analysis by:
 
 •	Separating individual countries from European aggregates.
+
 •	Retaining valid observations with missing values rather than deleting them unnecessarily.
+
 •	Documenting missing data.
+
 •	Identifying the latest available quarter.
+
 •	Creating analytical helper fields.
 
 Step 4 — Data wrangling
@@ -187,8 +206,11 @@ Step 4 — Data wrangling
 Additional analytical fields were created, including:
 
 •	Analysis group
+
 •	Latest-observation flag
+
 •	Price-index availability
+
 •	Growth category
 
 For example, year-on-year growth was classified as:
@@ -208,9 +230,13 @@ Step 5 — Exploratory Data Analysis
 Descriptive statistics and comparisons were used to identify:
 
 •	Overall trends
+
 •	Rankings
+
 •	Outliers
+
 •	Differences between groups
+
 •	High-growth and low-growth countries
 
 Step 6 — Comparative analysis
@@ -218,8 +244,11 @@ Step 6 — Comparative analysis
 The analysis compared:
 
 •	Countries against one another.
+
 •	EU versus non-EU countries.
+
 •	Eurozone versus non-Eurozone countries.
+
 •	Current growth versus longer-term growth.
 
 Step 7 — Visualization
@@ -229,10 +258,13 @@ Charts were selected according to the analytical question.
 Examples include:
 
 •	Line chart for price-index trends.
+
 •	Horizontal bar chart for country rankings.
+
 •	Comparison charts for EU/Eurozone groups.
 ________________________________________
 # Key Findings and Insights
+
 Finding 1 — European housing prices show an overall upward trend
 
 The median price index across individual countries increased from approximately:
@@ -299,10 +331,15 @@ Stakeholder implication
 Finland warrants further investigation to determine whether the decline reflects:
 
 •	Local housing-market conditions.
+
 •	Changes in demand.
+
 •	Economic conditions.
+
 •	Interest-rate effects.
+
 •	Regional differences.
+
 •	Temporary market weakness.
 
 The dataset itself cannot establish which factor caused the decline.
@@ -312,6 +349,7 @@ ________________________________________
 Finding 4 — Long-term housing-price growth varies dramatically across countries
 
 Using the change relative to the 2015 baseline, Hungary recorded the largest increase among countries with comparable 2025 Q3 data:
+
 Hungary: +275.2%
 
 Other leading countries were:
@@ -363,13 +401,21 @@ This is an association, not proof that EU membership causes higher housing-price
 The comparison does not control for:
 
 •	Interest rates
+
 •	Income growth
+
 •	Housing supply
+
 •	Population changes
+
 •	Inflation
+
 •	Government policy
+
 •	Mortgage availability
+
 •	Urbanization
+
 •	Construction activity
 
 Therefore, no causal conclusion should be drawn from this comparison alone.
@@ -450,8 +496,11 @@ Weak-growth markets should not automatically be considered unattractive
 A country with low price growth may have:
 
 •	Better affordability.
+
 •	Lower investment risk.
+
 •	Different rental-market characteristics.
+
 •	Greater future growth potential.
 
 Therefore, price growth should be considered alongside other indicators.
@@ -477,10 +526,15 @@ Recommendation 1 — Investigate high-growth markets further
 Stakeholders considering investment or market expansion should conduct deeper analysis of countries such as:
 
 •	Hungary
+
 •	Portugal
+
 •	Bulgaria
+
 •	Croatia
+
 •	Slovakia
+
 •	Spain
 
 The next stage should examine whether high price growth is supported by fundamentals such as income, population, housing supply, rents and economic activity.
@@ -508,15 +562,25 @@ A high-growth market should not automatically be classified as a "buy."
 Investment decisions should incorporate:
 
 •	Rental yields
+
 •	Mortgage rates
+
 •	Income levels
+
 •	Population growth
+
 •	Housing supply
+
 •	Vacancy rates
+
 •	Construction activity
+
 •	Economic growth
+
 •	Regulatory conditions
+
 •	Taxation
+
 •	Currency considerations
 
 Recommendation 5 — Improve data coverage before high-stakes decisions
@@ -524,12 +588,19 @@ Recommendation 5 — Improve data coverage before high-stakes decisions
 Before using this analysis for a major investment or policy decision, the dataset should ideally be supplemented with:
 
 •	More recent observations.
+
 •	Complete Swiss price-index data.
+
 •	More historical observations.
+
 •	Income data.
+
 •	Rent data.
+
 •	Mortgage/interest-rate data.
+
 •	Housing supply and construction data.
+
 •	Population and migration data.
 
 Recommendation 6 — Build a recurring housing-market dashboard
