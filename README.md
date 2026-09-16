@@ -217,7 +217,8 @@ Rank	Country	Change since 2015
 9	Latvia	120.7%
 10	Netherlands	117.6%
 		
-![EU vs Non-EU](visualizations/viz_4.png) 		
+![EU vs Non-EU](visualizations/viz_4.png)
+
 Türkiye shows an extremely large reported increase of approximately 1,784.9%, but its latest observation is 2024 Q4 rather than 2025 Q3. It should therefore not be directly ranked alongside the countries with 2025 Q3 observations when making a current-market comparison.
 Switzerland cannot be ranked on this measure because its relevant price-index values are missing.
 Stakeholder implication
@@ -275,7 +276,8 @@ Therefore, the majority of countries were classified as experiencing strong annu
 This reinforces the finding that the latest period was characterized by broadly positive housing-price movement.
 ________________________________________
 # iv. Share
-![Dashboard](visualizations/viz_7.png) 
+![Dashboard](visualizations/viz_7.png)
+
 9. What the Findings Mean for Stakeholders
 The analysis produces several decision-relevant messages.
 9.1 The European housing market is heterogeneous
@@ -383,9 +385,13 @@ European housing markets are highly diverse, and country-level conditions are mo
 The analysis provides a useful first layer of evidence for identifying markets that deserve attention. However, stakeholders should combine these findings with economic, demographic, affordability, rental and housing-supply indicators before making significant investment or policy decisions.
 ________________________________________
 ## Documents Delivered:
+
 european_housing_prices_clean.csv
+
 European_Hosuing_Cleaned_for_Analysis_x.csv
+
 Chart_Data_and_Calculations.xlsx
+
 Visualization folder
 
 
