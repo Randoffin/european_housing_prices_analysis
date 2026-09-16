@@ -336,9 +336,13 @@ They do not establish what will happen next.
 Switzerland's missing price-index data and Türkiye's shorter time coverage demonstrate why stakeholders should always understand the limitations behind a dashboard or ranking.
 ________________________________________
 # v. Act
+
 10. Recommendations
+    
 Based on the findings, the following recommendations are appropriate.
+
 Recommendation 1 — Investigate high-growth markets further
+
 Stakeholders considering investment or market expansion should conduct deeper analysis of countries such as:
 •	Hungary
 •	Portugal
@@ -347,17 +351,29 @@ Stakeholders considering investment or market expansion should conduct deeper an
 •	Slovakia
 •	Spain
 The next stage should examine whether high price growth is supported by fundamentals such as income, population, housing supply, rents and economic activity.
+
 Recommendation 2 — Monitor affordability risk
+
 Markets experiencing very rapid price appreciation should be assessed for affordability pressure.
+
 A useful follow-up analysis would compare:
+
 House-price growth versus income/wage growth.
+
 If housing prices are rising substantially faster than incomes, affordability risks may be increasing.
+
 Recommendation 3 — Investigate Finland's decline
+
 Finland's negative latest annual growth makes it an important market for further investigation.
+
 Stakeholders should determine whether the decline is temporary or part of a longer-term trend.
+
 Recommendation 4 — Do not make investment decisions from price growth alone
+
 A high-growth market should not automatically be classified as a "buy."
+
 Investment decisions should incorporate:
+
 •	Rental yields
 •	Mortgage rates
 •	Income levels
@@ -369,8 +385,11 @@ Investment decisions should incorporate:
 •	Regulatory conditions
 •	Taxation
 •	Currency considerations
+
 Recommendation 5 — Improve data coverage before high-stakes decisions
+
 Before using this analysis for a major investment or policy decision, the dataset should ideally be supplemented with:
+
 •	More recent observations.
 •	Complete Swiss price-index data.
 •	More historical observations.
@@ -379,9 +398,13 @@ Before using this analysis for a major investment or policy decision, the datase
 •	Mortgage/interest-rate data.
 •	Housing supply and construction data.
 •	Population and migration data.
+
 Recommendation 6 — Build a recurring housing-market dashboard
+
 Rather than conducting the analysis only once, stakeholders could establish a quarterly monitoring dashboard.
+
 The dashboard should track:
+
 1.	Current annual price growth.
 2.	Quarterly price growth.
 3.	Long-term price appreciation.
@@ -393,30 +416,51 @@ The dashboard should track:
 This would turn the analysis from a one-time report into an ongoing decision-support system.
 ________________________________________
 11. Limitations of the Analysis
+
 The following limitations should be explicitly communicated to stakeholders.
+
 Limited time period
+
 Most countries have observations covering approximately 2022 Q4 to 2025 Q3, which is relatively short for understanding long-term housing-market cycles.
+
 Unequal country coverage
+
 Türkiye has a shorter observation period and does not have a 2025 Q3 observation.
+
 Missing Swiss price-index data
+
 Switzerland cannot be fully compared on price-index-based measures because the relevant index observations are missing.
+
 Descriptive rather than causal analysis
+
 The analysis identifies relationships and patterns.
+
 It does not demonstrate that EU membership, Eurozone membership or any other variable caused housing-price movements.
+
 No economic drivers included
+
 The dataset primarily describes housing-price movements.
+
 It does not contain enough information to explain why prices changed.
+
 Historical data is not a forecast
+
 Past price growth does not guarantee future price growth.
 ________________________________________
 12. Conclusion
+
 The analysis indicates that European housing prices were generally increasing in the latest period, but the scale of growth differed considerably between countries.
+
 Hungary emerged as the strongest current-growth market, recording 21.1% year-on-year growth in 2025 Q3. Portugal and Bulgaria also recorded exceptionally strong growth.
+
 At the opposite end, Finland was the only country recording negative year-on-year growth, at -3.1%.
 Over the longer term, Hungary again stood out, with housing prices approximately 275.2% above the 2015 baseline at the latest comparable observation. Several Central, Eastern and Southern European markets also recorded very substantial long-term increases.
 EU countries showed stronger average latest-period growth than non-EU countries, while the Eurozone comparison produced the opposite pattern, with non-Eurozone countries recording higher average growth.
+
 The central conclusion is therefore:
+
 European housing markets are highly diverse, and country-level conditions are more informative for decision-making than relying solely on broad regional classifications.
+
 The analysis provides a useful first layer of evidence for identifying markets that deserve attention. However, stakeholders should combine these findings with economic, demographic, affordability, rental and housing-supply indicators before making significant investment or policy decisions.
 ________________________________________
 ## Documents Delivered:
