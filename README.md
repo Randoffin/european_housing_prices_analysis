@@ -297,12 +297,14 @@ This makes Finland a notable outlier in the latest-period comparison.
 Stakeholder implication
 
 Finland warrants further investigation to determine whether the decline reflects:
+
 •	Local housing-market conditions.
 •	Changes in demand.
 •	Economic conditions.
 •	Interest-rate effects.
 •	Regional differences.
 •	Temporary market weakness.
+
 The dataset itself cannot establish which factor caused the decline.
 ![Finland negative y-o-y](visualizations/viz_10.png) 
 ________________________________________
@@ -324,7 +326,7 @@ Rank	Country	Change since 2015
 9	Latvia	120.7%
 10	Netherlands	117.6%
 		
-![EU vs Non-EU](visualizations/viz_4.png)
+![Top 10 Long Term 2025-Q3](visualizations/viz_3.png)
 
 Türkiye shows an extremely large reported increase of approximately 1,784.9%, but its latest observation is 2024 Q4 rather than 2025 Q3. It should therefore not be directly ranked alongside the countries with 2025 Q3 observations when making a current-market comparison.
 Switzerland cannot be ranked on this measure because its relevant price-index values are missing.
@@ -335,19 +337,26 @@ A market that has already experienced very large appreciation may also face affo
 ________________________________________
 Finding 5 — EU countries showed higher average latest-period growth than non-EU countries
 
+![EU vs Non-EU](visualizations/viz_4.png)
+
 At 2025 Q3:
 
 •	EU countries: approximately 7.05% average year-on-year growth
 •	Non-EU countries: approximately 4.60% average year-on-year growth
 
 The median values were:
+
 •	EU: 6.15%
 •	Non-EU: 5.10%
+
 Both measures point in the same general direction: EU countries in this dataset had somewhat stronger average latest-period housing-price growth.
+
 Important interpretation
+
 This is an association, not proof that EU membership causes higher housing-price growth.
 
 The comparison does not control for:
+
 •	Interest rates
 •	Income growth
 •	Housing supply
@@ -357,27 +366,37 @@ The comparison does not control for:
 •	Mortgage availability
 •	Urbanization
 •	Construction activity
+
 Therefore, no causal conclusion should be drawn from this comparison alone.
 
 ![Eurozone vs Non-Eurozone](visualizations/viz_5.png) 
 ________________________________________
 Finding 6 — Eurozone membership does not show the same simple pattern
 
+![Eurozone vs Non-Eurozone](visualizations/viz_5.png) 
+
 At 2025 Q3:
-•	Eurozone countries had approximately 6.22% average year-on-year growth.
+
+•	Eurozone countries had approximately 6.23% average year-on-year growth.
+
 •	Non-Eurozone countries had approximately 7.90% average year-on-year growth.
+
 The median values were:
+
 •	Eurozone: 5.2%
 •	Non-Eurozone: 5.9%
+
 Therefore, in this dataset, non-Eurozone countries actually recorded higher average and median latest-period growth.
 
 Stakeholder implication
+
 This demonstrates why analysts should avoid assuming that a broad regional or institutional classification automatically determines market performance.
 Country-specific conditions appear to be highly important.
+
 ![All Latest YoY Growth](visualizations/viz_6.png) 
 ________________________________________
-8. Growth Classification
-9. 
+Growth Classification
+
 Using the analytical thresholds established for this project:
 
 •	Decline: below 0%
@@ -390,32 +409,51 @@ Category	Number of countries
 Decline	1
 Moderate Growth	11
 Strong Growth	17
+
 Therefore, the majority of countries were classified as experiencing strong annual housing-price growth under the project's definition.
 This reinforces the finding that the latest period was characterized by broadly positive housing-price movement.
+
+![All Latest YoY Growth](visualizations/viz_6.png) 
 ________________________________________
 # iv. Share
 ![Dashboard](visualizations/viz_7.png)
 
-9. What the Findings Mean for Stakeholders
+What the Findings Mean for Stakeholders
+
 The analysis produces several decision-relevant messages.
-9.1 The European housing market is heterogeneous
+
+The European housing market is heterogeneous
+
 There is no single "European housing market" behaving uniformly.
+
 Countries are experiencing substantially different levels of price growth.
-9.2 Rapid growth deserves both opportunity and risk analysis
+
+Rapid growth deserves both opportunity and risk analysis
+
 Countries such as Hungary, Portugal and Bulgaria stand out because of strong recent growth.
+
 For investors, these markets may warrant further investigation.
+
 For policymakers, however, rapid growth may also indicate increasing affordability pressure.
-9.3 Weak-growth markets should not automatically be considered unattractive
+
+Weak-growth markets should not automatically be considered unattractive
+   
 A country with low price growth may have:
+
 •	Better affordability.
 •	Lower investment risk.
 •	Different rental-market characteristics.
 •	Greater future growth potential.
+
 Therefore, price growth should be considered alongside other indicators.
-9.4 Historical performance should not be treated as a forecast
+
+Historical performance should not be treated as a forecast
+
 The large increases recorded by some countries since 2015 demonstrate what has happened historically.
 They do not establish what will happen next.
-9.5 Data quality matters for decision-making
+Data quality matters for decision-making
+
+
 Switzerland's missing price-index data and Türkiye's shorter time coverage demonstrate why stakeholders should always understand the limitations behind a dashboard or ranking.
 ________________________________________
 # v. Act
@@ -427,12 +465,14 @@ Based on the findings, the following recommendations are appropriate.
 Recommendation 1 — Investigate high-growth markets further
 
 Stakeholders considering investment or market expansion should conduct deeper analysis of countries such as:
+
 •	Hungary
 •	Portugal
 •	Bulgaria
 •	Croatia
 •	Slovakia
 •	Spain
+
 The next stage should examine whether high price growth is supported by fundamentals such as income, population, housing supply, rents and economic activity.
 
 Recommendation 2 — Monitor affordability risk
@@ -496,6 +536,7 @@ The dashboard should track:
 6.	Housing supply.
 7.	Interest rates.
 8.	Country ranking changes.
+
 This would turn the analysis from a one-time report into an ongoing decision-support system.
 ________________________________________
 11. Limitations of the Analysis
