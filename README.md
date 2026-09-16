@@ -237,7 +237,8 @@ ________________________________________
 Finding 1 — European housing prices show an overall upward trend
 
 The median price index across individual countries increased from approximately:
-![Median Price Index Trend](visualizations/viz_8.png) 
+![Median Price Index Trend](visualizations/viz_9.png) 
+
 169.64 in 2022 Q4
 to
 191.76 in 2025 Q3.
@@ -253,6 +254,8 @@ Decision-makers should therefore combine the European-level trend with country-l
 
 ________________________________________
 Finding 2 — Hungary had the strongest latest annual growth
+
+![Strongest Latest Annual Growth](visualizations/viz_8.png) 
 
 In 2025 Q3, Hungary recorded the highest year-on-year housing-price growth at:
 21.1%
