@@ -1,6 +1,6 @@
-## European Housing Prices Analysis
+# European Housing Prices Analysis
 ## Stakeholder Decision-Support Report
-# 1. Executive Summary
+## Executive Summary
 
 This analysis examines housing-price movements across European countries using quarterly housing-price data covering the period from 2022 Q4 to 2025 Q3, with some countries having shorter periods of coverage.
 The primary purpose of the analysis is to identify countries experiencing the strongest and weakest housing-price growth, understand the broader European housing-price trend, compare housing-market performance between EU and non-EU countries and between Eurozone and non-Eurozone countries, and identify areas that may require further investigation by decision-makers.
@@ -13,7 +13,7 @@ EU countries recorded an average year-on-year growth of approximately 7.05% in 2
 The results indicate a European housing market characterized by substantial differences between countries. Some markets are experiencing very rapid price appreciation, while others are experiencing relatively weak growth or decline.
 These findings can help stakeholders identify markets requiring closer monitoring, potential investment opportunities, affordability risks, and areas where additional economic or housing-market research is warranted.
 ________________________________________
-## 2. Objective / Aim of the Analysis
+# Objective / Aim of the Analysis
 # The main objective of this analysis is:
 To examine housing-price trends and differences across European countries in order to identify significant patterns, high-growth and low-growth markets, and information that can support evidence-based stakeholder decision-making.
 # The analysis specifically seeks to understand:
@@ -26,10 +26,10 @@ To examine housing-price trends and differences across European countries in ord
 
 In order to answer the analytical questions and provide insights, I followed the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
 ________________________________________
-## Approach
+# Approach
 
 # i. Ask
-# 3. Analytical Questions
+# Analytical Questions
 
 Six key questions were established before conducting the analysis.
 
@@ -63,7 +63,7 @@ ________________________________________
 Data Source: 
 One csv dataset was used: 
 European_housng_prices_clean.csv [https://www.kaggle.com/datasets/ibrahimshahrukh/european-housing-price-index-dataset]. This dataset has been made available by Ibrahim Shahruk under Creative Common Licenses.
-# 4. Dataset Overview
+# Dataset Overview
 The dataset contains 417 observations across 12 variables.
 
 The principal variables include:
@@ -99,105 +99,166 @@ For country-level analysis, the aggregate series were excluded because an aggreg
 should not be treated as an individual country.
 ________________________________________
 # iii. Process
+
 Tools Used:
+
 Excel/Spreadsheet: For data cleaning, transformation, analysis, and creating visual dashboard.
+
 GitHub: For version control and project ocumentation
-5. Data Preparation and Cleaning
+
+Data Preparation and Cleaning
+
 Before analysis, the dataset was examined for completeness, consistency and analytical suitability.
-5.1 Duplicate check
+
+Duplicate check
+
 No exact duplicate rows were identified.
+
 Therefore, no duplicate records needed to be removed.
-5.2 Country versus aggregate observations
+
+Country versus aggregate observations
+
 The country column contains both individual countries and European aggregate series.
+
 This was important because including the European Union or Euro area as if they were countries would distort country rankings and averages.
+
 A classification field was therefore created to distinguish:
+
 •	Individual country
+
 •	European aggregate
+
 Country-level analysis was restricted to individual countries.
-5.3 Missing EU and Eurozone membership
+
+Missing EU and Eurozone membership
+
 The EU and Eurozone membership fields contain blanks for the aggregate European series.
+
 These blanks were not converted to "No" because the membership fields are not applicable to aggregate observations.
-5.4 Switzerland missing price-index values
+
+Switzerland missing price-index values
+
 Switzerland has missing price_index values for the available period from 2022 Q4 through 2025 Q3.
 The missing values were not artificially estimated or filled because doing so could introduce unsupported assumptions into the analysis.
 The dataset itself flags these observations as having a missing price index.
-5.5 Türkiye coverage limitation
+
+Türkiye coverage limitation
+
 Türkiye has fewer observations than most other countries, with available observations ending in 2024 Q4.
 Türkiye was not deleted from the dataset because the observations are still valid and analytically useful.
 However, Türkiye was excluded from direct 2025 Q3 comparisons because it does not have a 2025 Q3 observation.
-5.6 Latest-quarter comparison
+
+Latest-quarter comparison
+
 The latest quarter in the dataset is 2025 Q3.
+
 For current-country comparisons, the analysis therefore used the latest available observations while clearly identifying countries that did not have 2025 Q3 data.
 ________________________________________
-6. Analytical Methodology
+Analytical Methodology
+
 The analysis followed a structured data-analysis workflow.
+
 Step 1 — Data understanding
+
 The dataset structure, variables, observation period and country coverage were examined.
+
 Step 2 — Data-quality assessment
+
 The data was checked for:
+
 •	Duplicate records
 •	Missing values
 •	Inconsistent classifications
 •	Country versus aggregate observations
 •	Incomplete country coverage
 •	Availability of the price index
+
 Step 3 — Data cleaning
+
 The dataset was prepared for analysis by:
+
 •	Separating individual countries from European aggregates.
 •	Retaining valid observations with missing values rather than deleting them unnecessarily.
 •	Documenting missing data.
 •	Identifying the latest available quarter.
 •	Creating analytical helper fields.
+
 Step 4 — Data wrangling
+
 Additional analytical fields were created, including:
+
 •	Analysis group
 •	Latest-observation flag
 •	Price-index availability
 •	Growth category
+
 For example, year-on-year growth was classified as:
+
 •	Decline: below 0%
+
 •	Moderate Growth: 0% to below 5%
+
 •	Strong Growth: 5% or higher
+
 These are analytical categories created for this project rather than categories supplied by the original dataset.
+
 # iv. Analyze
+
 Step 5 — Exploratory Data Analysis
+
 Descriptive statistics and comparisons were used to identify:
+
 •	Overall trends
 •	Rankings
 •	Outliers
 •	Differences between groups
 •	High-growth and low-growth countries
+
 Step 6 — Comparative analysis
+
 The analysis compared:
+
 •	Countries against one another.
 •	EU versus non-EU countries.
 •	Eurozone versus non-Eurozone countries.
 •	Current growth versus longer-term growth.
+
 Step 7 — Visualization
+
 Charts were selected according to the analytical question.
+
 Examples include:
+
 •	Line chart for price-index trends.
 •	Horizontal bar chart for country rankings.
 •	Comparison charts for EU/Eurozone groups.
 ________________________________________
-7. Key Findings and Insights
+# Key Findings and Insights
 Finding 1 — European housing prices show an overall upward trend
+
 The median price index across individual countries increased from approximately:
+![Median Price Index Trend](visualizations/viz_8.png) 
 169.64 in 2022 Q4
 to
 191.76 in 2025 Q3.
+
 This represents an increase of approximately 13% in the median price index over the observed period. That is (Ending – Beginning) / Beginning) x 100) = (191.76 – 169.64) / 169.76 x 100 = 13%.
 The overall direction therefore suggests that housing prices generally increased across the countries represented in the dataset, although individual markets behaved differently.
+
 Stakeholder implication
+
 The European housing market should not be treated as a single uniform market. The overall upward trend hides substantial differences between individual countries.
 Decision-makers should therefore combine the European-level trend with country-level analysis before making investment, policy or market-entry decisions.
 ![Median Price Index Trend](visualizations/viz_1.png) 
 
 ________________________________________
 Finding 2 — Hungary had the strongest latest annual growth
+
 In 2025 Q3, Hungary recorded the highest year-on-year housing-price growth at:
 21.1%
+
 The next highest were:
+
 Rank	Country	Year-on-year growth
 1	Hungary	21.1%
 2	Portugal	17.7%
@@ -209,7 +270,9 @@ Rank	Country	Year-on-year growth
 8	Czechia	10.8%
 9	Latvia	8.4%
 10	Netherlands	7.7%
+
 The results demonstrate considerable variation in current housing-market performance.
+
 Stakeholder implication
 Markets with exceptionally high growth deserve closer investigation.
 High growth can indicate strong demand and potential investment opportunities, but it can also indicate affordability pressure and the possibility that prices are increasing faster than underlying economic fundamentals.
@@ -218,12 +281,16 @@ The growth figure alone should therefore not be interpreted as a recommendation 
 ![Top 10 Latest YoY Growth](visualizations/viz_2.png) 
 ________________________________________
 Finding 3 — Finland was the only country with negative latest annual growth
+
 In 2025 Q3:
+
 •	28 of the 29 countries with available year-on-year observations recorded positive growth.
 •	Finland recorded the only negative year-on-year change, at -3.1%.
  
 This makes Finland a notable outlier in the latest-period comparison.
+
 Stakeholder implication
+
 Finland warrants further investigation to determine whether the decline reflects:
 •	Local housing-market conditions.
 •	Changes in demand.
@@ -235,6 +302,7 @@ The dataset itself cannot establish which factor caused the decline.
 ![Top 10 Long Term 2025-Q3](visualizations/viz_3.png) 
 ________________________________________
 Finding 4 — Long-term housing-price growth varies dramatically across countries
+
 Using the change relative to the 2015 baseline, Hungary recorded the largest increase among countries with comparable 2025 Q3 data:
 Hungary: +275.2%
 Other leading countries were:
@@ -261,15 +329,19 @@ However, historical growth should not automatically be interpreted as future gro
 A market that has already experienced very large appreciation may also face affordability constraints or changing demand conditions.
 ________________________________________
 Finding 5 — EU countries showed higher average latest-period growth than non-EU countries
+
 At 2025 Q3:
+
 •	EU countries: approximately 7.05% average year-on-year growth
 •	Non-EU countries: approximately 4.60% average year-on-year growth
+
 The median values were:
 •	EU: 6.15%
 •	Non-EU: 5.10%
 Both measures point in the same general direction: EU countries in this dataset had somewhat stronger average latest-period housing-price growth.
 Important interpretation
 This is an association, not proof that EU membership causes higher housing-price growth.
+
 The comparison does not control for:
 •	Interest rates
 •	Income growth
@@ -285,6 +357,7 @@ Therefore, no causal conclusion should be drawn from this comparison alone.
 ![Eurozone vs Non-Eurozone](visualizations/viz_5.png) 
 ________________________________________
 Finding 6 — Eurozone membership does not show the same simple pattern
+
 At 2025 Q3:
 •	Eurozone countries had approximately 6.22% average year-on-year growth.
 •	Non-Eurozone countries had approximately 7.90% average year-on-year growth.
@@ -292,17 +365,22 @@ The median values were:
 •	Eurozone: 5.2%
 •	Non-Eurozone: 5.9%
 Therefore, in this dataset, non-Eurozone countries actually recorded higher average and median latest-period growth.
+
 Stakeholder implication
 This demonstrates why analysts should avoid assuming that a broad regional or institutional classification automatically determines market performance.
 Country-specific conditions appear to be highly important.
 ![All Latest YoY Growth](visualizations/viz_6.png) 
 ________________________________________
 8. Growth Classification
+9. 
 Using the analytical thresholds established for this project:
+
 •	Decline: below 0%
 •	Moderate Growth: 0% to below 5%
 •	Strong Growth: 5% or higher
+
 The 2025 Q3 country observations were classified as follows:
+
 Category	Number of countries
 Decline	1
 Moderate Growth	11
